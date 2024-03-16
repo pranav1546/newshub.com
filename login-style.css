@@ -1,0 +1,126 @@
+body{
+	background: linear-gradient(to right, #434343 0%, black 100%);
+}
+form{
+	height: 370px;
+	width: 400px;
+	background-color: rgb(225, 225, 225);
+	margin:  200px 450px;
+	border-radius: 8px;
+}
+.field1{
+	height: 40px;
+	padding: 20px 70px;
+}
+.field1 input[type="text"]{
+	font-size: 15px;
+	height: 35px;
+	width: 250px;
+	outline: none;
+	border: #999;
+	border-bottom: 2px solid #999;
+	color: #020101;
+	background-color:#c6c6c6;
+	font-family: Arial, Helvetica, sans-serif;
+	border-radius: 5px;
+	
+.field1 input:hover{
+	border: 1px solid rgb(0, 0, 0)
+}	
+}
+.field1 input:active{
+	border: 2px solid rgb(0, 0, 0)
+}
+
+.field1 input[type="password"]{
+	font-size: 15px;
+	height: 35px;
+	width: 250px;
+	outline: none;
+	border: #999;
+	border-bottom: 2px solid #999;
+	color: #040202;
+	background-color:#c6c6c6;
+	border-radius: 5px;
+	/* border: 2px solid rgb(90, 57, 57); */
+}
+.field1 input:active{
+	border: 2px solid rgb(0, 0, 0)
+}
+.field1 input:hover {
+	border: 2px solid rgb(0, 0, 0)
+}
+.logo span{
+	/* padding: 1% 42%; */
+	font-size: 20px;
+	color: #000;
+	text-decoration: none;
+	text-align: center;
+	display: flex;
+	justify-content: center;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	font-weight: 400;
+}
+.logo{
+    padding-top: 20px;
+}
+label{
+	font-size: 15px;
+	color: #2d1616;
+	font-weight: 700px;
+	font-family: serif;
+}
+
+input[type="submit"]{
+	margin-top: 30px;
+	margin-left: 125px;
+	/* padding: 7px 70px; */
+    height: 35px;
+	width: 150px;
+	outline: none;
+	border: 2px solid #150707;	
+	font-size: 18px;
+	font-weight: 400;
+	background-color:rgb(0, 0, 0);
+	border-radius: 5px;
+	color:white;
+	/* padding-top: 50px; */
+	
+}
+input[type="submit"]:hover{
+	color: #060606;
+	background-color: #b7b7b7;
+	transition: 0.9s ease-out;
+	cursor: pointer;
+	border: 2px solid #854949;
+}
+#loginnewshub{
+	font-size: 35px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: rgb(94, 71, 71);
+	font-weight: 900;
+    font-family: cursive;
+}
+.login{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-weight: 400;
+	font-size: 23px;
+	font-family: fantasy;
+	
+}
+#HUB{
+	color: red;
+	font-size: 35px;
+}
+#signup{
+	text-align: center;
+	margin-top: 10px;
+	text-decoration: none;
+}
+.signupform{
+	height: 450px;
+}
